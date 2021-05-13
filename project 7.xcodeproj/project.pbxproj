@@ -11,6 +11,7 @@
 		AFEE17A6264A95B100AD5EC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE17A5264A95B100AD5EC2 /* ContentView.swift */; };
 		AFEE17A8264A95B500AD5EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEE17A7264A95B500AD5EC2 /* Assets.xcassets */; };
 		AFEE17AB264A95B500AD5EC2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFEE17AA264A95B500AD5EC2 /* Preview Assets.xcassets */; };
+		AFEE17B3264D663000AD5EC2 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFEE17B2264D663000AD5EC2 /* ExpenseItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		AFEE17A7264A95B500AD5EC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFEE17AA264A95B500AD5EC2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AFEE17AC264A95B500AD5EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFEE17B2264D663000AD5EC2 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				AFEE17A3264A95B100AD5EC2 /* project_7App.swift */,
 				AFEE17A5264A95B100AD5EC2 /* ContentView.swift */,
+				AFEE17B2264D663000AD5EC2 /* ExpenseItem.swift */,
 				AFEE17A7264A95B500AD5EC2 /* Assets.xcassets */,
 				AFEE17AC264A95B500AD5EC2 /* Info.plist */,
 				AFEE17A9264A95B500AD5EC2 /* Preview Content */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFEE17A6264A95B100AD5EC2 /* ContentView.swift in Sources */,
+				AFEE17B3264D663000AD5EC2 /* ExpenseItem.swift in Sources */,
 				AFEE17A4264A95B100AD5EC2 /* project_7App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
