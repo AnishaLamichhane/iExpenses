@@ -16,7 +16,15 @@ struct ContentView: View {
             List {
 // this tells the forEach to identify expenses.items  uniquely by its id, then prints the name out in each row
                 ForEach(expenses.items){ item in
-                    Text(item.name)
+                    HStack {
+                        VStack(alignment: .leading) {
+                            Text(item.name)
+                                .font(.headline)
+                            Text(item.type)
+                        }
+                        Spacer()
+                        Text("$\(item.amount)")
+                    }
                 }
                 .onDelete(perform: removeItems)
             }

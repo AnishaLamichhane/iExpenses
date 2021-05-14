@@ -56,8 +56,8 @@
 		AFEE17A2264A95B100AD5EC2 /* project 7 */ = {
 			isa = PBXGroup;
 			children = (
-				AFEE17B6264D944200AD5EC2 /* AddView.swift */,
 				AFEE17A3264A95B100AD5EC2 /* project_7App.swift */,
+				AFEE17B6264D944200AD5EC2 /* AddView.swift */,
 				AFEE17A5264A95B100AD5EC2 /* ContentView.swift */,
 				AFEE17B2264D663000AD5EC2 /* ExpenseItem.swift */,
 				AFEE17A7264A95B500AD5EC2 /* Assets.xcassets */,
