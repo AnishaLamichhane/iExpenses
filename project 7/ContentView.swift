@@ -29,7 +29,8 @@ struct ContentView: View {
                 .onDelete(perform: removeItems)
             }
             .navigationBarTitle("iExpenses")
-            .navigationBarItems(trailing: Button(action: {
+//            Challenge 1
+            .navigationBarItems(leading: EditButton(), trailing: Button(action: {
 //                the below two lines is for to check the list working properly or not
 //                let expense = ExpenseItem(name: "Test", type: "personal", amount: 5)
 //                self.expenses.items.append(expense)
