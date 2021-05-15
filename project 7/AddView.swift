@@ -15,6 +15,11 @@ struct AddView: View {
     @State private var amount = ""
     static let types = ["Personal", "Business"]
     
+//    Challenge 3
+    @State private var errorTitle = ""
+    @State private var errorMessage = ""
+    @State private var showingError = false
+    
     var body: some View {
         NavigationView {
             Form {
@@ -36,14 +41,31 @@ struct AddView: View {
                     let item = ExpenseItem(name: self.name, type: self.type, amount: actualAmount)
                     self.expenses.items.append(item)
                     self.presentationMode.wrappedValue.dismiss()
+                } else {
+//                    Challenge 3
+                    wordError(title: "Not integer", message: "Please use integer value for this field.")
                 }
             })
+//            Challenge 3
+            .alert(isPresented: $showingError) {
+                Alert(title: Text(errorTitle), message: Text(errorMessage), dismissButton: .default(Text("OK")))
         }
     }
 }
+    
+//    Challenge 3
+    func wordError(title: String, message: String) {
+        errorTitle = title
+        errorMessage = message
+        showingError = true
+        
+    }
+}
+    
 
 struct AddView_Previews: PreviewProvider {
     static var previews: some View {
         AddView(expenses: Expenses())
     }
 }
+
