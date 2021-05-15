@@ -7,4 +7,7 @@ Challenge
 - Modify the expense amounts in ContentView to contain some styling depending on their value – expenses under $10 should have one style, expenses under $100     
   another, and expenses over $100 a third style. What those styles are depend on you.
 - Add some validation to the Save button in AddView. If you enter “fish” or another thing that can’t be converted to an integer, show an alert telling users what     the problem is.
- https://user-images.githubusercontent.com/52813885/118355673-f0838000-b590-11eb-85ad-0297e8db4c1f.mov
+- 
+  https://user-images.githubusercontent.com/52813885/118355702-1f015b00-b591-11eb-9f84-525ae3abf261.mov
+
+
